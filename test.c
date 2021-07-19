@@ -2,8 +2,6 @@
 #include <stdlib.h> 
 
 
-
-
 int f1()
 {
     char *buf;
@@ -18,7 +16,7 @@ int f1()
     return 0;
 }
 
-unsigned int amount(int y){ return y;}
+/* unsigned int amount(int y){ return y;}
 
 int f2(){
    int amoun;
@@ -26,7 +24,7 @@ int f2(){
    amoun=amount(value);
    return 0;
 }
-
+*/
 #define SIZE 16
 int f3(){
     char* ptr = (char*)malloc (SIZE);
@@ -88,7 +86,7 @@ int f8(){
 int main()
 {
     f1();
-    f2();
+    //f2();
     f3();
     f4();
     f5();
