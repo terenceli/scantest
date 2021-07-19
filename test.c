@@ -2,6 +2,8 @@
 #include <stdlib.h> 
 
 
+
+
 int f1()
 {
     char *buf;
